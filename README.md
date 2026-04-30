@@ -1,1 +1,1 @@
-# phase-1-react-summative-lab1
+# phase-2-react-summative-lab1
