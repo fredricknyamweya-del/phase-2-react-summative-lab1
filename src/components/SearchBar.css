@@ -1,0 +1,39 @@
+.search-control {
+  position: relative;
+  display: block;
+  width: min(100%, 400px);
+}
+
+.search-control input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e7edf4;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.search-control input::placeholder {
+  color: rgba(231, 237, 244, 0.5);
+}
+
+.search-control input:focus {
+  outline: none;
+  border-color: rgba(93, 163, 255, 0.6);
+  background: rgba(93, 163, 255, 0.1);
+  box-shadow: 0 0 0 3px rgba(93, 163, 255, 0.1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
